@@ -1,0 +1,15 @@
+{
+  "name": "s3-upload-provider-with-rekognition",
+  "version": "1.0.0",
+  "description": "Strapi upload provider for S3 and include rekognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ernesto Vizcaino",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.934.0",
+    "lodash": "^4.17.21"
+  }
+}
