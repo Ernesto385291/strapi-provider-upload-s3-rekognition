@@ -1,15 +1,45 @@
 {
-  "name": "s3-upload-provider-with-rekognition",
-  "version": "1.0.0",
-  "description": "Strapi upload provider for S3 and include rekognition",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "strapi-provider-upload-aws-s3-with-rekognition",
+  "version": "0.0.1",
+  "description": "AWS S3 provider for strapi upload with optional CDN configuration. Adapted from strapi-provider-upload-aws-s3",
+  "homepage": "https://strapi.io",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi",
+    "rekognition"
+  ],
+  "directories": {
+    "lib": "./lib"
   },
-  "author": "Ernesto Vizcaino",
-  "license": "ISC",
+  "main": "./lib",
   "dependencies": {
     "aws-sdk": "^2.934.0",
     "lodash": "^4.17.21"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "vizcaino.erne@gmail.com",
+    "name": "Ernesto Vizcaíno"
+  },
+  "maintainers": [
+    {
+      "name": "Ernesto Vizcaíno",
+      "email": "vizcaino.erne@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
