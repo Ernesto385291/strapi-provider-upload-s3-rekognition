@@ -1,8 +1,8 @@
 {
   "name": "strapi-provider-upload-aws-s3-with-rekognition",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "AWS S3 provider for strapi upload with rekognition. Adapted from strapi-provider-upload-aws-s3",
-  "homepage": "https://strapi.io",
+  "homepage": "https://github.com/Ernesto385291/strapi-provider-upload-s3-rekognition",
   "keywords": [
     "upload",
     "aws",
